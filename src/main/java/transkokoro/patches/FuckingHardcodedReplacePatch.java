@@ -15,9 +15,9 @@ public class FuckingHardcodedReplacePatch {
         @SpirePrefixPatch
         public static void Insert (EncoreComponent __instance, AbstractCard ___card) {
             if (__instance.isEncore()) {
-                ___card.rawDescription = ___card.rawDescription.replace(replaceStr[0], replaceStr[1]);
+                ___card.rawDescription = ___card.rawDescription.replaceFirst(replaceStr[0], replaceStr[1]);
             } else {
-                ___card.rawDescription = ___card.rawDescription.replace(replaceStr[1], replaceStr[0]);
+                ___card.rawDescription = ___card.rawDescription.replaceFirst(replaceStr[1], replaceStr[0]);
             }
         }
     }
