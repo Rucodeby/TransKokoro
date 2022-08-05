@@ -492,7 +492,7 @@
   },
   "Kokoro:NeverEndingDanceCard": {
     "NAME": "Нескончаемый танец",
-    "DESCRIPTION": "kokoro:Потеря_Популярности !Kokoro:SecondMagic! - наносит !Kokoro:ThirdMagic! урона (не влияют модификаторы урона) и увеличивает его на !M!. NL Разыгрывается пока не kokoro:Популярность, затем сбрасывает свой урон. NL ( Наносит всего !Kokoro:NeverEndingDanceDamage! урона. )"
+    "DESCRIPTION": "kokoro:Потеря_Популярности !Kokoro:SecondMagic! - наносит !Kokoro:ThirdMagic! урона (не влияют мод-ры урона) и увеличивает его на !M!. NL Разыгрывается пока не кончится kokoro:Популярность, затем сбрасывает свой урон. NL ( Наносит всего !Kokoro:NeverEndingDanceDamage! урона. )"
   },
   "Kokoro:CompensationCard": {
     "NAME": "Компенсация",
