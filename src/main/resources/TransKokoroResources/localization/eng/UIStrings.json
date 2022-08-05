@@ -1,0 +1,16 @@
+{
+  "AbstractDynamicCard": {
+    "TEXT": [
+      "Ethereal. NL ",
+      "Innate. NL ",
+      "Retain. NL ",
+      " NL Exhaust."
+    ]
+  },
+  "transkokoro:EncoreReplace": {
+    "TEXT": [
+      "kokoro:Encore. ",
+      "kokoro:Perfomance. "
+    ]
+  }
+}

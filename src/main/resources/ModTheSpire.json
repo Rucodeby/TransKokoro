@@ -1,0 +1,11 @@
+{
+  "modid": "transkokoro",
+  "name": "Noh Dancer Translation",
+  "author_list": ["Rucodeby"],
+  "description": "A mod adding Russian translation for Noh Dancer mod.",
+  "version": "1.0.2",
+  "sts_version": "01-23-2019",
+  "mts_version": "3.8.0",
+  "dependencies": ["basemod", "stslib", "TheNohDancer"],
+  "update_json": ""
+}

@@ -1,0 +1,138 @@
+{
+        "Kokoro:PopularityExplosionPower": {
+                "NAME": "Взрыв Популярности",
+                "DESCRIPTIONS": ["Активирует эффекты всех эмоций или требующих их отсутствия. Возвращает последнюю #yЭмоцию в конце хода."]
+        },
+        "Kokoro:PopularityDancePower": {
+                "NAME": "Популярный танец",
+                "DESCRIPTIONS": ["Даёт #yВзрыв #yПопулярности в следующем ходу."]
+        },
+        "Kokoro:PopularityPower": {
+                "NAME": "Популярность",
+                "DESCRIPTIONS": ["Даёт #yВзрыв #yПопулярности в начале вашего хода, когда достигает #b12."]
+        },
+        "Kokoro:PoweredUpPower": {
+                "NAME": "Усиление",
+                "DESCRIPTIONS": ["Увеличивает урон от #yАтак на #b", "%."]
+        },
+        "Kokoro:GrazePower": {
+                "NAME": "Укрепление",
+                "DESCRIPTIONS": ["Увеличивает получаемую от карт #yЗащиту на #b", "%."]
+        },
+        "Kokoro:AcceleratorPower": {
+                "NAME": "Ускорение",
+                "DESCRIPTIONS": ["Даёт #b1 #yУсиления на след. ход, когда вы разыгрываете #yАтаку. NL Даёт #b1 #yУкрепления на след. ход, когда вы разыгрываете #yНавык."]
+        },
+        "Kokoro:PowerAccelerationPower": {
+                "NAME": "Усиление",
+                "DESCRIPTIONS": ["Увеличивает урон от #yАтак на #b", "%."]
+        },
+        "Kokoro:SpeedAccelerationPower": {
+                "NAME": "Укрепление",
+                "DESCRIPTIONS": ["Увеличивает получаемую от карт #yЗащиту на #b", "%."]
+        },
+        "Kokoro:TrappedPower": {
+                "NAME": "Путы",
+                "DESCRIPTIONS": ["В начале вашего хода получит #b", " за каждый имеющийся отриц. эффект."]
+        },
+        "Kokoro:CounterPower": {
+                "NAME": "Отражение",
+                "DESCRIPTIONS": ["Получит #b", " урона после след. атаки."]
+        },
+        "Kokoro:HopePower": {
+                "NAME": "Надежда",
+                "DESCRIPTIONS": ["Удваивает ВСЕ получаемые отриц. эффекты."]
+        },
+        "Kokoro:LockedEmotionPower": {
+                "NAME": "Блокировка чувств",
+                "DESCRIPTIONS": ["Не позволяет сменить #yЭмоцию."]
+        },
+        "Kokoro:KoomotePower": {
+                "NAME": "Маска девушки",
+                "DESCRIPTIONS": ["Вы получаете #b", " [E] и берёте #b", " карту в начале вашего хода, если вы #yРадостны.", " карты в начале вашего хода, если вы #yРадостны."]
+        },
+        "Kokoro:HannyaPower": {
+                "NAME": "Маска хання",
+                "DESCRIPTIONS": ["Даёт #b", " #yСилы в начале вашего хода, если вы #yЗлы."]
+        },
+        "Kokoro:UbaPower": {
+                "NAME": "Маска старухи",
+                "DESCRIPTIONS": ["Даёт #b", " #yЛовкости в начале вашего хода, если вы в #yПечали."]
+        },
+        "Kokoro:HyottokoPower": {
+                "NAME": "Маска Хёттоко",
+                "DESCRIPTIONS": ["В конце вашего хода наносит #b", " урона за каждую #yПопулярность и", " отнимает всю #yПопулярность.", " отнимает половину #yПопулярности."]
+        },
+        "Kokoro:KitsunePower": {
+                "NAME": "Маска лисы",
+                "DESCRIPTIONS": ["Даёт #b", " #yЗащиты, когда вы накладываете отриц. эффект."]
+        },
+        "Kokoro:InvokePower": {
+                "NAME": "Маска старухи",
+                "DESCRIPTIONS": ["At the beginning of your turn, choose between and gain a random Attack, Skill or Power into your hand."]
+        }, //УСТАРЕЛО
+        "Kokoro:EmotionLinkPower": {
+                "NAME": "Связать эмоции",
+                "DESCRIPTIONS": ["Накладывает отриц. эффекты по одной цели на ВСЕХ врагов."]
+        },
+        "Kokoro:ControlEmotionsPower": {
+                "NAME": "Контроль эмоций",
+                "DESCRIPTIONS": ["В начале вашего хода даёт #yЭмоцию на выбор."]
+        },
+        "Kokoro:AttackCostReductionPower": {
+                "NAME": "Дешёвые атаки",
+                "DESCRIPTIONS": ["Снижает стоимость след. #b", " Атак(и) на #b1."]
+        },
+        "Kokoro:TenguSpeedPower": {
+                "NAME": "Скорость тэнгу",
+                "DESCRIPTIONS": ["В начале вашего хода даёт #b", " #yЛовкости."]
+        },
+        "Kokoro:PreparedPerformancePower": {
+                "NAME": "Подготовленное выступление",
+                "DESCRIPTIONS": ["Снижает стоимость всех #yПредставлений на #b", "."]
+        },
+        "Kokoro:SapPower": {
+                "NAME": "Сок",
+                "DESCRIPTIONS": ["Отнимает #b", " #yСилы до конца хода, когда он получает урон."]
+        },
+        "Kokoro:LionsFirePower": {
+                "NAME": "Пламя льва",
+                "DESCRIPTIONS": ["В начале каждого вашего хода наносит #b", " урона за каждую #yАтаку в руке и даёт #b", " #yЗащиты за каждый #yНавык в руке."]
+        },
+        "Kokoro:EchoChamberPower": {
+                "NAME": "Зал с эхо",
+                "DESCRIPTIONS": ["В этом ходу след. #b", " карта, связанная с #yЭмоциями, разыгрывается дважды.", " карты, связанные с #yЭмоциями, разыгрываются дважды."]
+        },
+        "Kokoro:FleetingEmotionPower": {
+                "NAME": "Мимолётные эмоции",
+                "DESCRIPTIONS": ["Вы берёте #b", " карту, когда меняете #yЭмоцию.", " карты, когда меняете #yЭмоцию."]
+        },
+        "Kokoro:SaruPower": {
+                "NAME": "Маска обезьяны",
+                "DESCRIPTIONS": ["Даёт #b", " #yЗащиты и наносит #b", " урона, когда вы меняете #yЭмоцию."]
+        },
+        "Kokoro:MenreikiFormPower": {
+                "NAME": "Облик менрейки",
+                "DESCRIPTIONS": ["Снижает стоимость всех карт, которые дают #yЭмоции, на #b", "."]
+        },
+        "Kokoro:UnshakenConvictionPower": {
+                "NAME": "Новая маска надежды",
+                "DESCRIPTIONS": ["Удваивает урон и #yЗащиту от карт, когда у вас нет #yЭмоций."]
+        },
+        "Kokoro:EndlessDebuffPower": {
+                "NAME": "Нескончаемые болячки",
+                "DESCRIPTIONS": ["Не позволяет упасть уменьшающимся отриц. эффектам."]
+        },
+        "Kokoro:ShinkirouPower": {
+                "NAME": "Синкиро",
+                "DESCRIPTIONS": ["#yПредставления выступают только #yНа #yбис."]
+        },
+        "Kokoro:UnstableEmotionPower": {
+                "NAME": "Нестабильные эмоции",
+                "DESCRIPTIONS": ["В начале вашего хода даёт случайную #yЭмоцию."]
+        },
+        "Kokoro:EvasiveCounterPower": {
+                "NAME": "Отражение с уклонением",
+                "DESCRIPTIONS": ["Снижает получаемый урон от атак врага на кол-во его #yОтражения и снимает половину эффекта."]
+        }
+}

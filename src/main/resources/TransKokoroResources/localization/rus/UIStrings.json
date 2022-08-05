@@ -1,0 +1,16 @@
+{
+  "AbstractDynamicCard": {
+    "TEXT": [
+      "Эфирная. NL ",
+      "Начальная. NL ",
+      "Оставляется. NL ",
+      " NL Сжигается."
+    ]
+  },
+  "transkokoro:EncoreReplace": {
+    "TEXT": [
+      "kokoro:На_бис.",
+      "kokoro:Представление."
+    ]
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "Kokoro:KokoroStrikeCard": {
+    "NAME": "Удар",
+    "DESCRIPTION": "Наносит !D! урона."
+  },
+  "Kokoro:KokoroDefendCard": {
+    "NAME": "Оборона",
+    "DESCRIPTION": "Даёт !B! Защиты."
+  },
+  "Kokoro:RokujousEnmityCard": {
+    "NAME": "Неистовый удар",
+    "DESCRIPTION": "kokoro:Злит. NL Наносит !D! урона."
+  },
+  "Kokoro:WaterIrisBeautyCard": {
+    "NAME": "Очарование Ирис",
+    "DESCRIPTION": "kokoro:Радует. NL Даёт !M! kokoro:Популярности. NL Вы берёте !Kokoro:SecondMagic! карту в след. ходу."
+  },
+  "Kokoro:YuyasCherryBlossomsCard": {
+    "NAME": "Цветение вишни",
+    "DESCRIPTION": "kokoro:Печалит. NL Даёт !B! Защиты. NL Накладывает !D! kokoro:Отражения."
+  },
+  "Kokoro:FlowOfTheMasksCard_old2": {
+    "NAME": "Flow of the Masks",
+    "DESCRIPTION": "kokoro:Anger : Наносит !D! урона. NL kokoro:Joy : Gain [E] , вы берёте !M! карту NL kokoro:Melancholy : Даёт !B! Защиты.",
+    "UPGRADE_DESCRIPTION": "kokoro:Anger : Наносит !D! урона. NL kokoro:Joy : Gain [E] , вы берёте !M! карту, next turn gain [E] NL kokoro:Melancholy : Даёт !B! Защиты."
+  },
+  "Kokoro:ReleaseEmotionsCard": {
+    "NAME": "Выплеснуть эмоции",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная NL Гасит kokoro:Эмоции.",
+      "Наносит !D! урона. NL Гасит kokoro:Эмоции.",
+      "Вы берёте !M! карты и получаете [E] в след. ходу. NL Гасит kokoro:Эмоции.",
+      "Даёт !B! Защиты. NL Гасит kokoro:Эмоции.",
+      "Наносит !D! урона. Даёт !B! Защиты. Вы берёте !M! карты и получаете [E] в след. ходу. NL Гасит kokoro:Эмоции."
+    ]
+  },
+  "Kokoro:FanSwipeCard": {
+    "NAME": "Взмах веером",
+    "DESCRIPTION": "Наносит !D! урона. NL Добавляет в руку *Продолжение."
+  },
+  "Kokoro:SetupCard": {
+    "NAME": "Сетап",
+    "DESCRIPTION": "Наносит !D! урона. NL Добавляет в руку !M! *Продолжения."
+  },
+  "Kokoro:FollowupCard": {
+    "NAME": "Продолжение",
+    "DESCRIPTION": "Эфирная. NL Наносит !D! урона.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная NL Сжигается.",
+      "Наносит доп. !Kokoro:SecondMagic! урона. NL Сжигается.",
+      "Накладывает !M! kokoro:Пут. NL Сжигается.",
+      "Даёт !B! Защиты. NL Сжигается.",
+      "Наносит доп. !Kokoro:SecondMagic! урона. NL Накладывает !M! kokoro:Пут. NL Даёт !B! Защиты. NL Сжигается."
+    ]
+  },
+  "Kokoro:FullOnChargeCard": {
+    "NAME": "Заряд на полную",
+    "DESCRIPTION": "kokoro:Злит. NL Даёт !M! kokoro:Усиления."
+  },
+  "Kokoro:FestiveCelebrationCard": {
+    "NAME": "Празднование фестиваля",
+    "DESCRIPTION": "kokoro:Радует. NL Вы берёте !M! карту в след. ходу.",
+    "UPGRADE_DESCRIPTION": "kokoro:Радует. NL Вы берёте !M! карты в след. ходу."
+  },
+  "Kokoro:CautiousManeuverCard": {
+    "NAME": "Осторожный манёвр",
+    "DESCRIPTION": "kokoro:Печалит. NL Даёт !M! kokoro:Укрепления."
+  },
+  "Kokoro:CraneAndTortoiseCard": {
+    "NAME": "Журавль и черепашка",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная NL Вы берёте !Kokoro:SecondMagic! карту.",
+      "Наносит !D! урона.",
+      "Даёт !M! kokoro:Ускорения.",
+      "Даёт !B! Защиты.",
+      "Наносит !D! урона. NL Даёт !M! kokoro:Ускорения. NL Даёт !B! Защиты.",
+      "kokoro:Усиления kokoro:Укрепления"
+    ]
+  },
+  "Kokoro:CraneAndTortoiseCard_old": {
+    "NAME": "Crane and Tortoise",
+    "DESCRIPTION": "kokoro:Потеря_Популярности !Kokoro:SecondMagic!. NL kokoro:Anger : Даёт !M! kokoro:Powered_Up. NL kokoro:Joy : Даёт !M! kokoro:Accelerator. NL kokoro:Melancholy : Даёт !M! kokoro:Укрепления.",
+    "UPGRADE_DESCRIPTION": "kokoro:Anger : Даёт !M! kokoro:Powered_Up. NL kokoro:Joy : Даёт !M! kokoro:Accelerator. NL kokoro:Melancholy : Даёт !M! kokoro:Укрепления."
+  },
+  "Kokoro:SogasVengeanceCard": {
+    "NAME": "Возмездие Сога",
+    "DESCRIPTION": "kokoro:Злит. NL Наносит !D! урона. NL Даёт !M! Силы до конца хода, если вы уже kokoro:Злы."
+  },
+  "Kokoro:NeverEndingCrockCard": {
+    "NAME": "Бесконечный горшочек",
+    "DESCRIPTION": "kokoro:Радует. NL Вы берёте !Kokoro:SecondMagic! карты. NL Вы получаете [E] и берёте !M! карту, если вы уже kokoro:Радостны.",
+    "UPGRADE_DESCRIPTION": "kokoro:Радует. NL Вы берёте !Kokoro:SecondMagic! карты. NL Вы получаете [E] и берёте !M! карты, если вы уже kokoro:Радостны."
+  },
+  "Kokoro:KiyotsunesPromiseCard": {
+    "NAME": "Обещание лисицы",
+    "DESCRIPTION": "kokoro:Печалит. NL Даёт !B! Защиты. NL Даёт !M! Ловкости до конца хода, если вы уже в kokoro:Печали."
+  },
+  "Kokoro:RationalStrategyCard": {
+    "NAME": "Планы учиться",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Сжигается. NL Не Сжигается, если у вас нет kokoro:Эмоций."
+  },
+  "Kokoro:BellOfDoujoujiCard": {
+    "NAME": "Колокол Додзё-дзи",
+    "DESCRIPTION": "kokoro:Представление. NL kokoro:Злит. NL Наносит !D! урона. Повышает свой урон на !M! до конца боя.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:На_бис"
+    ]
+  },
+  "Kokoro:SpiderSlasherCard": {
+    "NAME": "Паучья гибель",
+    "DESCRIPTION": "{@@}kokoro:Представление. NL ",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная",
+      "Наносит !D! урона.",
+      "Вы накладываете !M! kokoro:Пут и берёте !M! карт{!M!|@=.|&1=у.|&2,&3,&4=ы.|&11,&12,&13,&14=.}",
+      "Даёт !B! Защиты.",
+      "Наносит !D! урона. Вы накладываете !M! kokoro:Пут и берёте !M! карт{!M!|@=.|&1=у.|&2,&3,&4=ы.|&11,&12,&13,&14=.} Даёт !B! Защиты.",
+      "kokoro:На_бис"
+    ]
+  },
+  "Kokoro:OniOfKurozukaCard": {
+    "NAME": "Куродзука",
+    "DESCRIPTION": "Эфирная NL kokoro:Злит. NL Даёт !M! Слабости.",
+    "UPGRADE_DESCRIPTION": "kokoro:Злит. NL Даёт !M! Слабости."
+  },
+  "Kokoro:ShortLivedHighCard": {
+    "NAME": "Short-Lived High", //УСТАРЕЛО [ЦЕНЗУРА]
+    "DESCRIPTION": "Эфирная NL kokoro:Радует. NL Вы берёте на !M! карту меньше в след. ходу.",
+    "UPGRADE_DESCRIPTION": "kokoro:Радует. NL Вы берёте на !M! карту меньше в след. ходу."
+  },
+  "Kokoro:MrsFujisRegretsCard": {
+    "NAME": "Mrs. Fuji's Regrets", //ТОЖЕ
+    "DESCRIPTION": "Эфирная NL kokoro:Печалит. Даёт !M! Хрупкости.",
+    "UPGRADE_DESCRIPTION": "kokoro:Печалит. Даёт !M! Хрупкости."
+  },
+  "Kokoro:StudyEmotionsCard": {
+    "NAME": "Учиться эмоциям",
+    "DESCRIPTION": "kokoro:Представление. NL Получает kokoro:На_бис в конце хода. NL kokoro:Радует. NL Вы берёте !M! карту. NL Увеличивает свою стоимость на !Kokoro:SecondMagic! , если разыгрывается не kokoro:На_бис.",
+    "UPGRADE_DESCRIPTION": "kokoro:Представление. NL Получает kokoro:На_бис в конце хода. NL kokoro:Радует. NL Вы берёте !M! карты. NL Увеличивает свою стоимость на !Kokoro:SecondMagic! , если разыгрывается не kokoro:На_бис."
+  },
+  "Kokoro:RoaringFoxMaskCard": {
+    "NAME": "Маска яростного ёкая-лисы",
+    "DESCRIPTION": "kokoro:Злит. NL Наносит !D! урона !M! раза."
+  },
+  "Kokoro:AngryWolfMaskCard": {
+    "NAME": "Маска злого волка",
+    "DESCRIPTION": "Наносит !D! урона ВСЕМ врагам !M! раза. NL Становится kokoro:Представлением, пока вы kokoro:Злы. NL Наносит !D! урона !Kokoro:SecondMagic! раза по одной цели, если разыгрывается kokoro:На_бис.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:На_бис. NL Наносит !D! урона !Kokoro:SecondMagic! раза."
+    ]
+  },
+  "Kokoro:ShoutingSpiderCard": {
+    "NAME": "Кричащий паук",
+    "DESCRIPTION": "kokoro:Злит. NL Наносит !D! урона. NL Накладывает !M! kokoro:Пут, но если у цели уже есть kokoro:Путы, снимает с неё всё kokoro:Путы и за каждую единицу от половины его количества снижает цену след Атаки на 1."
+  },
+  "Kokoro:SighingOsakabeCard": {
+    "NAME": "Вздыхающий осакабе",
+    "DESCRIPTION": "kokoro:Печалит. NL Снимает с цели всё kokoro:Отражение и даёт половину от его количества в виде Шипов. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Оставляется. NL kokoro:Печалит. NL Снимает с цели всё kokoro:Отражение и даёт половину от его количества в виде Шипов NL Сжигается."
+  },
+  "Kokoro:MelancholicOgressCard": {
+    "NAME": "Маска скорбной они",
+    "DESCRIPTION": "kokoro:Печалит. NL Даёт !B! Защиты. NL Накладывает !M! kokoro:Пут."
+  },
+  "Kokoro:DelightedLionMaskCard": {
+    "NAME": "Маска довольного льва",
+    "DESCRIPTION": "kokoro:Радует. NL Защита не исчезнет в начале вашего след. хода.",
+    "UPGRADE_DESCRIPTION": "Оставляется. NL kokoro:Радует. NL Защита не исчезнет в начале вашего след. хода."
+  },
+  "Kokoro:InvigoratedKaguraLionCard": {
+    "NAME": "Бодрый лев Кагура",
+    "DESCRIPTION": "Вы берёте !M! карты. NL Становится kokoro:Представлением, пока вы kokoro:Радостны. NL Наносит !D! урона за каждую Атаку в руке и даёт !B! Защиты за каждый Навык в руке, если разыгрывается kokoro:На_бис.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:На_бис NL Вы берёте !M! карты. Наносит !D! урона за каждую Атаку в руке и даёт !B! Защиты за каждый Навык в руке."
+    ]
+  },
+  "Kokoro:EnrapturedHyottokoCard": {
+    "NAME": "Восторженный Хёттоко",
+    "DESCRIPTION": "kokoro:Радует. NL Вы получаете [E] и берёте !M! карту в следующем ходу.",
+    "UPGRADE_DESCRIPTION": "kokoro:Радует. NL Вы получаете [E] [E] берёте !M! карту в следующем ходу."
+  },
+  "Kokoro:KokoroRouletteCard": {
+    "NAME": "Рулетка Кокоро",
+    "DESCRIPTION": "Начальная. NL Даёт случайную kokoro:Эмоцию. Даёт !M! kokoro:Популярности.",
+    "UPGRADE_DESCRIPTION": "Начальная. NL Даёт kokoro:Эмоцию на выбор. Даёт !M! kokoro:Популярности."
+  },
+  "Kokoro:MonkeyPossessionCard": {
+    "NAME": "Одержимость обезьяной",
+    "DESCRIPTION": "kokoro:Представление. NL Наносит !D! урона ВСЕМ врагам. NL Не перестаёт выступать kokoro:На_бис.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:На_бис"
+    ]
+  },
+  "Kokoro:FourHumorsPossessionCard": {
+    "NAME": "Чувственная одержимость",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная",
+      "Наносит !D! урона !M! раза. NL Гасит kokoro:Эмоции.",
+      "Накладывает !Kokoro:SecondMagic! kokoro:Пут и все ваши отриц. эффекты на ВСЕХ врагов. NL Гасит kokoro:Эмоции.",
+      "Даёт !B! Защиты !M! раза. NL Гасит kokoro:Эмоции.",
+      "Наносит !D! урона !M! раза. NL Накладывает !Kokoro:SecondMagic! kokoro:Пут и все ваши отриц. эффекты на ВСЕХ врагов. NL Даёт !B! Защиты !M! раза. NL Гасит kokoro:Эмоции.",
+      "kokoro:Чувствительная",
+      "DealНаносит !D! урона !M! раза. NL Гасит kokoro:Эмоции.",
+      "Накладывает !Kokoro:SecondMagic! kokoro:Пут и все ваши отриц. эффекты на ВСЕХ врагов. Снимает с вас все отриц. эффекты. NL Гасит kokoro:Эмоции.",
+      "Даёт !B! Защиты !M! раза. NL Гасит kokoro:Эмоции.",
+      "Наносит !D! урона !M! раза. NL Накладывает !Kokoro:SecondMagic! kokoro:Пут и все ваши отриц. эффекты на ВСЕХ врагов. Снимает с вас все отриц. эффекты. NL Даёт !B! Защиты !M! раза. NL Гасит kokoro:Эмоции."
+    ]
+  },
+  "Kokoro:NohOfDarknessCard": {
+    "NAME": "Танец бездушных масок",
+    "DESCRIPTION": "Эфирная. NL Даёт kokoro:Взрыв_Популярности на следующий ход. NL Гасит kokoro:Эмоции. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Даёт kokoro:Взрыв_Популярности на следующий ход. NL Гасит kokoro:Эмоции. NL Сжигается."
+  },
+  "Kokoro:MelancholyMaskCard": {
+    "NAME": "Печальная маска",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Становится kokoro:Представлением, пока вы в kokoro:Печали. NL Наносит !D! урона, если разыгрывается kokoro:На_бис.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:На_бис NL Наносит !D! урона."
+    ]
+  },
+  "Kokoro:SplitMouthEmotionCard": {
+    "NAME": "Эмоция разорванного рта",
+    "DESCRIPTION": "kokoro:Злит. NL Накладывает !D! kokoro:Отражения.",
+    "UPGRADE_DESCRIPTION": "Оставляется. NL kokoro:Злит. NL Накладывает !D! kokoro:Отражения.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная",
+      "Накладывает !D! kokoro:Отражения.",
+      "Накладывает !M! kokoro:Пут.",
+      "Накладывает !Kokoro:SecondMagic! Слабости.",
+      "Наносит !D! урона в след. ходу за каждый полученный удар в этом. NL Накладывает !M! kokoro:Пут и !Kokoro:SecondMagic! Слабости."
+    ]
+  },
+  "Kokoro:NaginataSlashCard": {
+    "NAME": "Порез нагинатой",
+    "DESCRIPTION": "Наносит !D! урона. Наносит на !M! больше урона, за каждое *Продолжение разыгранное в этом бою. NL (Наносит !Kokoro:NaginataDamage! урона)"
+  },
+  "Kokoro:ExplodingEmotionCard": {
+    "NAME": "Эмоциональный взрыв",
+    "DESCRIPTION": "Наносит !D! урона. NL Наносит на !M! больше урона и Гасит kokoro:Эмоции, если у вас есть kokoro:Эмоция."
+  },
+  "Kokoro:SpinningFansCard": {
+    "NAME": "Кружащиеся веера",
+    "DESCRIPTION": "kokoro:Радует. NL Наносит !D! урона. NL Вы повышаете её стоимость на 1 и кладёте в руку после разыгрывания. NL В конце вашего хода снижает свою стоимость до 0."
+  },
+  "Kokoro:OriginalMaskOfHopeCard": {
+    "NAME": "Оригинальная маска надежды",
+    "DESCRIPTION": "Эфирная. NL Удваивает полож. эффекты от карт.",
+    "UPGRADE_DESCRIPTION": "Удваивает полож. эффекты от карт."
+  },
+  "Kokoro:NewMaskOfHopeCard": {
+    "NAME": "Новая маска надежды", //УСТАРЕЛО
+    "DESCRIPTION": "While kokoro:Emotionless, double the damage and Защиты of your cards. NL Shuffle !M! *Unstable *Emotion into your deck.",
+    "UPGRADE_DESCRIPTION": "While kokoro:Emotionless, double the damage and Защиты of your cards. NL Shuffle !M! upgraded *Unstable *Emotion into your deck."
+  },
+  "Kokoro:KoomoteMaskCard": {
+    "NAME": "Маска девушки",
+    "DESCRIPTION": "Если вы kokoro:Радостны в начале вашего хода, вы получаете [E] и берёте !M! карту."
+  },
+  "Kokoro:HannyaMaskCard": {
+    "NAME": "Маска хання",
+    "DESCRIPTION": "Если вы kokoro:Злы в начале вашего хода, даёт !M! Силы."
+  },
+  "Kokoro:UbaMaskCard": {
+    "NAME": "Маска старухи",
+    "DESCRIPTION": "Если вы в kokoro:Печали в начале вашего хода, даёт !M! Ловкости."
+  },
+  "Kokoro:FukuNoKamiMaskCard": {
+    "NAME": "Маска бога счастья",
+    "DESCRIPTION": "kokoro:Отражение снижает урон врага за каждую единицу эффекта. Увеличивает потерю kokoro:Отражения на 50%.",
+    "UPGRADE_DESCRIPTION": "Начальная. NL kokoro:Отражение снижает урон врага за каждую единицу эффекта. Увеличивает потерю kokoro:Отражения на 50%."
+  },
+  "Kokoro:HyottokoMaskCard": {
+    "NAME": "Маска Хёттоко",
+    "DESCRIPTION": "Наносит !M! урона случ. врагу за каждую kokoro:Популярность и снимает всю kokoro:Популярность в конце каждого вашего хода.",
+    "UPGRADE_DESCRIPTION": "Наносит !M! урона случ. врагу за каждую kokoro:Популярность и снимает половину kokoro:Популярности в конце каждого вашего хода."
+  },
+  "Kokoro:SaruMaskCard": {
+    "NAME": "Маска обезьяны",
+    "DESCRIPTION": "Даёт !Kokoro:SecondMagic! Защиты и наносит !M! урона случ. врагу, когда вы меняете kokoro:Эмоции."
+  },
+  "Kokoro:RaidenMaskCard": {
+    "NAME": "Маска грома",
+    "DESCRIPTION": "Даёт !M! Шипов."
+  },
+  "Kokoro:KitsuneMaskCard": {
+    "NAME": "Маска лисы",
+    "DESCRIPTION": "Даёт !M! Защиты, когда вы накладываете отриц. эффекты."
+  },
+  "Kokoro:ClearMindCard": {
+    "NAME": "Чистый разум",
+    "DESCRIPTION": "Можно разыграть только если у вас нет kokoro:Эмоций. NL Даёт !M! kokoro:Укрепления NL Защита не исчезнет в начале вашего след. хода. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Можно разыграть только если у вас нет kokoro:Эмоций. NL Даёт !M! kokoro:Укрепления NL Защита не исчезнет в начале вашего след. хода."
+  },
+  "Kokoro:MaskedPerformanceCard": {
+    "NAME": "Шоу с масками",
+    "DESCRIPTION": "kokoro:Представление. NL Сжигается, если разыгрывается kokoro:На_бис.",
+    "UPGRADE_DESCRIPTION": "kokoro:Представление.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная",
+      "Накладывает !M! Уязвимости.",
+      "Накладывает !M! kokoro:Сока.",
+      "Накладывает !M! Слабости.",
+      "Накладывает !M! Уязвимости, kokoro:Сока и Слабости.",
+      "kokoro:На_бис"
+    ]
+  },
+  "Kokoro:NaginataDanceCard": {
+    "NAME": "Танец с нагинатой",
+    "DESCRIPTION": "kokoro:Представление. NL Наносит !D! урона. NL Наносит урон ВСЕМ врагам, если у вас нет kokoro:Эмоций.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:На_бис"
+    ]
+  },
+  "Kokoro:FleetingEmotionCard": {
+    "NAME": "Мимолётные эмоции",
+    "DESCRIPTION": "Вы берёте !M! карту, когда вы меняете kokoro:Эмоции."
+  },
+  "Kokoro:MaskTendingCard": {
+    "NAME": "Mask Tending", //УСТАРЕЛО
+    "DESCRIPTION": "Даёт kokoro:Эмоцию на выбор. NL Восполняет !M! ОЗ. NL Сжигается."
+  },
+  "Kokoro:ControlEmotionsCard": {
+    "NAME": "Контроль эмоций",
+    "DESCRIPTION": "Даёт kokoro:Эмоцию на выбор. NL Даёт kokoro:Эмоцию на выбор в начале каждого вашего хода.",
+    "UPGRADE_DESCRIPTION": "Начальная. NL Даёт kokoro:Эмоцию на выбор. NL Даёт kokoro:Эмоцию на выбор в начале каждого вашего хода."
+  },
+  "Kokoro:MenreikiFormCard": {
+    "NAME": "Облик менрейки",
+    "DESCRIPTION": "Снижает стоимость ВСЕХ карт, которые дают kokoro:Эмоции, на !M!. NL В начале каждого вашего хода отнимает [E] [E] .",
+    "UPGRADE_DESCRIPTION": "Снижает стоимость ВСЕХ карт, которые дают kokoro:Эмоции, на !M!. NL В начале каждого вашего хода отнимает [E] ."
+  },
+  "Kokoro:LeitmotivCard": {
+    "NAME": "Лейтмотив",
+    "DESCRIPTION": "Эфирная. NL kokoro:Радует. NL Добавляет свою копию в стопку добора. NL Наносит !D! урона."
+  },
+  "Kokoro:EmotionLinkCard": {
+    "NAME": "Связать эмоции",
+    "DESCRIPTION": "Накладывает отриц. эффекты на ВСЕХ врагов, вместо одного."
+  },
+  "Kokoro:SacredRiteOkinaCard": {
+    "NAME": "Священный обряд «Окина»",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Наносит !D! урона. NL Становится kokoro:Представлением, пока у вас нет kokoro:Эмоций.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:На_бис"
+    ]
+  },
+  "Kokoro:EchoChamberCard": {
+    "NAME": "Зал с эхо",
+    "DESCRIPTION": "В этом ходу !M! следующая карта, связанная с kokoro:Эмоциями, разыгрывается дважды.",
+    "UPGRADE_DESCRIPTION": "В этом ходу !M! следующие карты, связанные с kokoro:Эмоциями, разыгрываются дважды."
+  },
+  "Kokoro:SidestepCard": {
+    "NAME": "Обход",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Добавляет в руку !M! *Продолжения."
+  },
+  "Kokoro:SoulCrushingMaskCard": {
+    "NAME": "Маска пронзающая души",
+    "DESCRIPTION": "Наносит !D! урона.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная",
+      "Накладывает !M! Уязвимости.",
+      "Накладывает !M! kokoro:Сока.",
+      "Накладывает !M! Слабости.",
+      "Накладывает !M! Уязвимости, kokoro:Сока и Слабости."
+    ]
+  },
+  "Kokoro:AngelsFeatherRobeCard": {
+    "NAME": "Ангельская ряса",
+    "DESCRIPTION": "Даёт !B! Защиты.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная",
+      "Даёт !M! kokoro:Популярности.",
+      "Даёт !M! kokoro:Ускорения.",
+      "kokoro:Потеря_Популярности !Kokoro:SecondMagic! - даёт !Kokoro:ThirdMagic! additional Защиты.",
+      "Даёт !M! kokoro:Популярности и kokoro:Ускорения. Даёт ещё !Kokoro:ThirdMagic! Защиты.",
+      "kokoro:Усиления kokoro:Укрепления"
+    ]
+  },
+  "Kokoro:ShinkirouCard": {
+    "NAME": "Синкиро",
+    "DESCRIPTION": "Эфирная. NL Все карты с kokoro:Представлением никогда не закончат выступать kokoro:На_бис.",
+    "UPGRADE_DESCRIPTION": "Все карты с kokoro:Представлением никогда не закончат выступать kokoro:На_бис.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:На_бис"
+    ]
+  },
+  "Kokoro:StickyWebCard": {
+    "NAME": "Липкая паутина",
+    "DESCRIPTION": "kokoro:Радует. NL Накладывает !M! kokoro:Пут. NL Уменьшающиеся отриц. эффекты не спадут в конце следующего хода."
+  },
+  "Kokoro:CarefulPerformanceCard": {
+    "NAME": "Подготовленное выступление",
+    "DESCRIPTION": "kokoro:Представление. NL kokoro:Печалит. NL Даёт !B! Защиты.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:На_бис"
+    ]
+  },
+  "Kokoro:RestrainingBindsCard": {
+    "NAME": "Сдерживающий узел",
+    "DESCRIPTION": "kokoro:Печалит. NL Накладывает !M! kokoro:Пут, но если у цели уже есть kokoro:Путы, снимает с неё всё kokoro:Путы и отнимает Силу у цели, равную половине его количества."
+  },
+  "Kokoro:TrapOfKuchisakeCard": {
+    "NAME": "Ловушка Кутисакэ",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная. NL Накладывает X*2 kokoro:Отражения. NL Накладывает X kokoro:Пут. NL Накладывает X Слабости.",
+      "Накладывает X*4 kokoro:Отражения. NL Накладывает X kokoro:Пут. NL Накладывает X Слабости.",
+      "Накладывает X*2 kokoro:Отражения. NL Накладывает X+1 kokoro:Пут. NL Накладывает X Слабости.",
+      "Накладывает X*2 kokoro:Отражения. NL Накладывает X kokoro:Пут. NL Накладывает X+1 Слабости.",
+      "Накладывает X*4 kokoro:Отражения. NL Накладывает X+1 kokoro:Пут. NL Накладывает X+1 Слабости.",
+      "kokoro:Чувствительная. NL Накладывает (X+1)*2 kokoro:Отражения. NL Накладывает X+1 kokoro:Пут. NL Накладывает X+1 Слабости.",
+      "Накладывает (X+1)*4 kokoro:Отражения. NL Накладывает X+1 kokoro:Пут. NL Накладывает X+1 Слабости.",
+      "Накладывает (X+1)*2 kokoro:Отражения. NL Накладывает X+2 kokoro:Пут. NL Накладывает X+1 Слабости.",
+      "Накладывает (X+1)*2 kokoro:Отражения. NL Накладывает X+1 kokoro:Пут. NL Накладывает X+2 Слабости.",
+      "Накладывает (X+1)*4 kokoro:Отражения. NL Накладывает X+2 kokoro:Пут. NL Накладывает X+2 Слабости."
+    ]
+  },
+  "Kokoro:DenounceFaithCard": {
+    "NAME": "Порицать веру",
+    "DESCRIPTION": "kokoro:Радует. NL Даёт доп. !M! урона, !M! Защиты и «Эфирная» следующим X Атакам и Навыкам в стопке добора до конца боя.",
+    "UPGRADE_DESCRIPTION": "kokoro:Радует. NL Даёт доп. !M! урона, !M! Защиты и «Эфирная» следующим X+1 Атакам и Навыкам в стопке добора до конца боя.",
+    "EXTENDED_DESCRIPTION": [
+      "Эфирная. NL "
+    ]
+  },
+  "Kokoro:MaskRushCard": {
+    "NAME": "Рывок маской",
+    "DESCRIPTION": "Наносит !D! урона.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная.",
+      "Наносит ещё раз половину от основного урона.",
+      "Даёт [E] .",
+      "Даёт Защиту, равную половине кол-ва нанесённого урона по ОЗ врага.",
+      "Наносит ещё раз половину от основного урона. NL Даёт [E] . NL Даёт Защиту, равную половине кол-ва нанесённого урона по ОЗ врага."
+    ]
+  },
+  "Kokoro:NegatingMasksCard": {
+    "NAME": "Масочное отторжение",
+    "DESCRIPTION": "Даёт !B! Защиты.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная.",
+      "Накладывает !D! kokoro:Отражения.",
+      "Вы берёте !M! карты в следующем ходу.",
+      "Даёт !B! Защиты в следующем ходу.",
+      "Накладывает !D! kokoro:Отражения. NL Вы берёте !M! карты и получаете !B! Защиты в начале след. хода."
+    ]
+  },
+  "Kokoro:ChoosingYourPathCard": {
+    "NAME": "Выбрать путь",
+    "DESCRIPTION": "Эфирная. NL Даёт kokoro:Эмоцию на выбор. NL Не позволяет больше менять kokoro:Эмоции. NL kokoro:Злость - В начале каждого хода даёт !M! Силы. NL kokoro:Радость - В начале хода вы берёте !Kokoro:SecondMagic! доп. карты. NL kokoro:Печаль - В начале каждого хода даёт !M! Ловкости.",
+    "UPGRADE_DESCRIPTION": "Даёт kokoro:Эмоцию на выбор. NL Не позволяет больше менять kokoro:Эмоции. NL kokoro:Злость - В начале каждого хода даёт !M! Силы. NL kokoro:Радость - В начале хода вы берёте !Kokoro:SecondMagic! доп. карты. NL kokoro:Печаль - В начале каждого хода даёт !M! Ловкости.",
+    "EXTENDED_DESCRIPTION": [
+      " NL Не позволяет больше менять kokoro:Эмоции. NL В начале каждого вашего хода даёт 1 Силы.",
+      " NL Не позволяет больше менять kokoro:Эмоции. NL В начале каждого вашего хода вы берёте 2 доп. карты.",
+      " NL Не позволяет больше менять kokoro:Эмоции. NL В начале каждого вашего хода даёт 1 Ловкости."
+    ]
+  },
+  "Kokoro:RecurrenceCard": {
+    "NAME": "Повторение",
+    "DESCRIPTION": "kokoro:Потеря_Популярности !M! - наносит !D! урона ВСЕМ врагам. NL Разыгрывается до !Kokoro:SecondMagic! раз."
+  },
+  "Kokoro:RetreatCard": {
+    "NAME": "Отступление",
+    "DESCRIPTION": "kokoro:Печалит. NL Даёт !B! Защиты. NL kokoro:Потеря_Популярности !M! - даёт ещё !Kokoro:SecondMagic! Защиты."
+  },
+  "Kokoro:LosingControlCard": {
+    "NAME": "Потеря контроля",
+    "DESCRIPTION": "Даёт kokoro:Эмоцию на выбор. NL kokoro:Злость - даёт !M! Слабости. NL kokoro:Радость - вы берёте на !M! карту меньше в след. ходу. NL kokoro:Печаль - даёт !M! Уязвимости."
+  },
+  "Kokoro:SuddenMoodinessCard": {
+    "NAME": "Внезапная смена настроения",
+    "DESCRIPTION": "kokoro:Потеря_Популярности !M! - даёт kokoro:Эмоцию на выбор."
+  },
+  "Kokoro:RangedCombatCard": {
+    "NAME": "Дальний бой",
+    "DESCRIPTION": "Наносит !D! урона.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная.",
+      "Накладывает !D! kokoro:Отражения.",
+      "Добавляет в руку !M! *Продолжение.",
+      "Накладывает !Kokoro:SecondMagic! Слабости.",
+      "Накладывает !D! kokoro:Отражения. NL Добавляет в руку !M! *Продолжения. NL Накладывает !Kokoro:SecondMagic! Слабости."
+    ]
+  },
+  "Kokoro:FeintCard": {
+    "NAME": "Притворство",
+    "DESCRIPTION": "kokoro:Печалит. NL Даёт !B! Защиты. NL Накладывает !M! Уязвимости."
+  },
+  "Kokoro:NeverEndingDanceCard": {
+    "NAME": "Нескончаемый танец",
+    "DESCRIPTION": "kokoro:Потеря_Популярности !Kokoro:SecondMagic! - наносит !Kokoro:ThirdMagic! урона (не влияют модификаторы урона) и увеличивает его на !M!. NL Разыгрывается пока не kokoro:Популярность, затем сбрасывает свой урон. NL ( Наносит всего !Kokoro:NeverEndingDanceDamage! урона. )"
+  },
+  "Kokoro:CompensationCard": {
+    "NAME": "Компенсация",
+    "DESCRIPTION": "Наносит !D! урона. Урон увеличивается на !M! за каждую потраченную картами kokoro:Популярность в этом бою. (Наносит !Kokoro:PopularityLossDamage! урона.)"
+  },
+  "Kokoro:UnshakenConvictionCard": {
+    "NAME": "Непоколебимость",
+    "DESCRIPTION": "Гасит kokoro:Эмоции. NL Не позволяет больше получить kokoro:Эмоции. NL Даёт !M! Силы. NL Даёт !M! Ловкости. NL В начале каждого вашего хода вы берёте !Kokoro:SecondMagic! карту."
+  },
+  "Kokoro:DonningMasksCard": {
+    "NAME": "Надеть маску",
+    "DESCRIPTION": "Даёт kokoro:Эмоцию на выбор. NL kokoro:Злость - наносит !D! урона врагу с наименьшими ОЗ. NL kokoro:Радость - даёт !M! kokoro:Ускорения. Добавляет в руку !M! *Продолжение. NL kokoro:Печаль - даёт !B! Защиты.",
+    "EXTENDED_DESCRIPTION": [
+      " NL Наносит !M! урона врагу с наименьшими ОЗ.",
+      " NL Даёт !M! kokoro:Ускорения. Добавляет в руку !M! *Продолжение.",
+      " NL Даёт !M! Защиты.",
+      "kokoro:Усиления kokoro:Укрепления"
+    ]
+  },
+  "Kokoro:RecklessMasksCard": {
+    "NAME": "Безбашенные маски",
+    "DESCRIPTION": "Даёт !B! Защиты. Наносит !D! урона.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная. NL Сжигается.",
+      "Наносит !D! урона. NL Сжигается при след. разыгрывании пока вы kokoro:Злы.",
+      "Даёт [E] на след. ход. NL Сжигается при след. разыгрывании пока вы kokoro:Радостны.",
+      "Даёт !B! Защиты. NL Сжигается при след. разыгрывании пока вы в kokoro:Печали.",
+      "Даёт !B! Защиты. Наносит !D! урона. Даёт [E] на след. ход.",
+      "Сжигается."
+    ]
+  },
+  "Kokoro:DressRehearsalCard": {
+    "NAME": "Генеральная репетиция",
+    "DESCRIPTION": "Эфирная. NL kokoro:Представление.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная. Добавляет свою копию в стопку добора.",
+      "Увеличивает свои эффекты на !Kokoro:SecondMagic!. NL Добавляет свою копию в стопку добора.",
+      "Даёт !M! Панциря. NL Добавляет свою копию в стопку добора.",
+      "Увеличивает свои эффекты на !Kokoro:SecondMagic!. NL Даёт !M! Шипов и !M! Панциря. NL Добавляет свою копию в стопку добора.",
+      "kokoro:На_бис"
+    ]
+  },
+  "Kokoro:RuthlessExecutionCard": {
+    "NAME": "Безжалостная казнь",
+    "DESCRIPTION": "Наносит !D! урона. NL Повышает свой урон на !M! до конца боя. NL Положите эту карту на верх стопки добора, если у вас нет kokoro:Эмоции."
+  },
+  "Kokoro:CheapShotCard": {
+    "NAME": "Подлый выстрел",
+    "DESCRIPTION": "Наносит !D! урона.",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная.",
+      "kokoro:Потеря_Популярности !Kokoro:SecondMagic! - наносит !D! урона.",
+      "Даёт !M! kokoro:Популярности.",
+      "kokoro:Потеря_Популярности !Kokoro:SecondMagic! - даёт !B! Защиты.",
+      "Наносит доп. !D! урона. Даёт !M! kokoro:Популярности. Даёт !B! Защиты."
+    ]
+  },
+  "Kokoro:MaskStormCard": {
+    "NAME": "Шторм масок",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная.",
+      "Наносит !D! урона случ. врагам !M! раза.",
+      "Наносит !D! урона ВСЕМ врагам.",
+      "Наносит !D! урона !M! раза.",
+      "Наносит !D! урона случ. врагам !M! раза. Наносит !D! урона ВСЕМ врагам. Наносит !D! урона !M! раза."
+    ]
+  },
+  "Kokoro:FlowOfTheMasksCard": {
+    "NAME": "Поток масок",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      "kokoro:Чувствительная.",
+      "Отнимает !M! Силы у случ. врага до конца его хода !Kokoro:SecondMagic! раза.",
+      "ВСЕ враги теряют !M! Силы до конца своего хода.",
+      "Даёт !B! Защиты !Kokoro:SecondMagic! раза.",
+      "Отнимает !M! Силы у случ. врага до конца его хода !Kokoro:SecondMagic! раза. ВСЕ враги теряют !M! Силы до конца своего хода. Даёт !B! Защиты !Kokoro:SecondMagic! раза."
+    ]
+  },
+  "Kokoro:UnstableEmotionCard": {
+    "NAME": "Нестабильные эмоции",
+    "DESCRIPTION": "Даёт случ. kokoro:Эмоцию, когда вы берёте эту карту.",
+    "UPGRADE_DESCRIPTION": "Даёт случ. kokoro:Эмоцию, когда вы берёте эту карту. Вы берёте карту."
+  },
+  "Kokoro:AngerCard": {
+    "NAME": "Злость",
+    "DESCRIPTION": "kokoro:Злит."
+  },
+  "Kokoro:JoyCard": {
+    "NAME": "Радость",
+    "DESCRIPTION": "kokoro:Радует."
+  },
+  "Kokoro:MelancholyCard": {
+    "NAME": "Печаль",
+    "DESCRIPTION": "kokoro:Печалит."
+  },
+  "Kokoro:EmotionlessCard": {
+    "NAME": "Бесчувственность",
+    "DESCRIPTION": "Гасит kokoro:Эмоции."
+  }
+}

@@ -1,0 +1,10 @@
+{
+        "Kokoro:PopularityPotion": {
+        "NAME": "Зелье популярности",
+        "DESCRIPTIONS": ["Даёт ", " #yПопулярности."]
+        },
+        "Kokoro:EmotionPotion": {
+                "NAME": "Зелье эмоций",
+                "DESCRIPTIONS": ["Даёт #yЭмоцию на выбор."]
+        }
+}

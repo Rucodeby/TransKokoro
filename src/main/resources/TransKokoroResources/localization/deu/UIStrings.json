@@ -1,0 +1,16 @@
+{
+  "AbstractDynamicCard": {
+    "TEXT": [
+      "Flüchtig. NL ",
+      "Angeboren. NL ",
+      "Behalten. NL ",
+      " NL Erschöpft."
+    ]
+  },
+  "transkokoro:EncoreReplace": {
+    "TEXT": [
+      "kokoro:Zugabe. ",
+      "kokoro:Aufführung. "
+    ]
+  }
+}
