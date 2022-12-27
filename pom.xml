@@ -4,12 +4,12 @@
     <groupId>transkokoro</groupId>
     <artifactId>TransKokoro</artifactId>
     <version>0.1</version>
-    <description>A mod adding Russian translation for Noh Dancer mod.</description>
+    <description>A mod adding Russian translation for the Noh Dancer mod.</description>
 
 
     <properties>
-        <workshopFolder>C:\Program Files (x86)\Slay the Spire\mods\</workshopFolder>
-        <stsPath>C:\Program Files (x86)\Slay the Spire\</stsPath>
+        <stsPath>C:\Program Files (x86)\Steam\steamapps\common\SlayTheSpire\</stsPath>
+        <SteamPath>C:\Program Files (x86)\Steam\steamapps\workshop\content\646570\</SteamPath>
         <SlayTheSpire.version>2.0</SlayTheSpire.version>
         <ModTheSpire.version>3.8.0</ModTheSpire.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,28 +28,28 @@
             <artifactId>ModTheSpire</artifactId>
             <version>${ModTheSpire.version}</version>
             <scope>system</scope>
-            <systemPath>${stsPath}ModTheSpire.jar</systemPath>
+            <systemPath>${SteamPath}1605060445\ModTheSpire.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>basemod</groupId>
             <artifactId>basemod</artifactId>
             <version>5.17.0</version>
             <scope>system</scope>
-            <systemPath>${workshopFolder}BaseMod.jar</systemPath>
+            <systemPath>${SteamPath}1605833019\BaseMod.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>come.evacipated.cardcrawl</groupId>
             <artifactId>stslib</artifactId>
             <version>1.17.2</version>
             <scope>system</scope>
-            <systemPath>${workshopFolder}StSLib.jar</systemPath>
+            <systemPath>${SteamPath}1609158507\StSLib.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>de.ncs</groupId>
             <artifactId>TheNohDancer</artifactId>
             <version>1.0.2</version>
             <scope>system</scope>
-            <systemPath>${workshopFolder}TheNohDancer.jar</systemPath>
+            <systemPath>${SteamPath}2451464697\TheNohDancer.jar</systemPath>
         </dependency>
     </dependencies>
 
