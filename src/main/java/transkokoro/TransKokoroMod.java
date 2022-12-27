@@ -19,11 +19,6 @@ import java.nio.charset.StandardCharsets;
 public class TransKokoroMod implements EditStringsSubscriber, EditKeywordsSubscriber {
     public static final Logger logger = LogManager.getLogger(TransKokoroMod.class.getName());
     private static String modID;
-
-    private static final String MODNAME = "Noh Dancer Translation";
-    private static final String AUTHOR = "Rucodeby";
-    private static final String DESCRIPTION = "A mod adding Russian translation for Noh Dancer mod.";
-
     public TransKokoroMod() {
         logger.info("Subscribe to BaseMod hooks");
         BaseMod.subscribe(this);
@@ -44,7 +39,7 @@ public class TransKokoroMod implements EditStringsSubscriber, EditKeywordsSubscr
         logger.info("=========================== Initializing The Servant ============================");
 
         @SuppressWarnings("unused")
-        TransKokoroMod blackruse = new TransKokoroMod();
+        TransKokoroMod transKokoroMod = new TransKokoroMod();
 
         logger.info("=========================== /The Servant Initialized/ ===========================");
     }
